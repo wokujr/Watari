@@ -1,0 +1,175 @@
+/* Default */
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+}
+
+/* navbar */
+
+.bk-ground{
+    background-color:rgb(133, 217, 250);
+    padding: 1rem 18px 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+}
+.reg-button
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Caoursel */
+#main-carousel{
+    background-color: rgb(133, 217, 250);
+    color: #000 ;
+    padding:50px 0 20px 0;
+    width: 100%;
+    height: 500px;
+}
+.carousel-item
+{
+    padding: 1.2rem 18rem;
+}
+.font-size-car-1
+{
+    font-size:30px ;
+}
+.font-size-car-2
+{
+    font-size: 20px;
+}
+
+.TG-img
+{
+    width: 100%;
+    margin-left: 7rem;
+    text-align: center;
+}
+.TG-img-2
+{
+    width: 100%;
+    margin-left: 40px;
+}
+
+@media(max-width: 2560px)
+{
+    .TG-img
+    {
+        width: 80%;
+    }
+    .TG-img-2{
+        width: 90%;
+    }
+}
+
+@media(max-width:1250px)
+{
+    .TG-img
+    {
+        width: 100%;
+    }
+    .font-size-car-1
+    {
+        font-size: 20px;
+    }
+    .TG-img-2
+    {
+        width:100%
+    }
+    .font-size-car-2
+    {
+        font-size: 15px;
+    }
+    .TG-img-2
+    {
+        margin-top: 20px;
+    }
+}
+@media(max-width:1080px)
+{
+    .TG-img
+    {
+        margin-top: 10px;
+        width: 110%;
+    }
+    .TG-img-2
+    {
+        margin-top: 50px;
+        width: 110%;
+    }
+}
+@media(max-width:991px)
+{
+    .TG-img
+    {
+        width: 80%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .button-pad
+    {
+        margin-top: 0;
+    }
+}
+
+.button-pad
+{
+    margin:40px 0 0 0
+}
+
+/* WhatsApp Float */
+.float-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+  }
+  
+  .float-whatsapp a {
+    display: block;
+    background-color: green;
+    color: white;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    transition: all 0.3s ease;
+  }
+  
+  .float-whatsapp a:hover {
+    transform: scale(1.1);
+  }
+
+/* Main CSS */
+.main-space
+{
+    margin-top: 20px;
+    text-align: center;
+}
+.icon-color
+{
+    color: blue;
+    font-size: 100px;
+}
+
+/* Card kelebihan */
+.card-size
+{
+    width: 22rem;
+    margin: 1rem auto;
+}
+.CTA
+{
+    padding: 7% 10%;
+    text-align: center;
+}
+.icon-size
+{
+    font-size: 2rem
+}
+
+/* end of Main CSS */
