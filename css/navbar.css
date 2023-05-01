@@ -1,0 +1,14 @@
+.navbar
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.reg-button
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#navbarContent{
+    margin:auto;
+    padding: auto;
+}

@@ -13,3 +13,8 @@
         }, false)
       })
     })()
+
+$(function()
+{
+  $('.minat-tg').selectpicker();
+})

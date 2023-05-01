@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(144, 217, 228);
+}
+.container{
+    position: relative;
+    max-width: 320px;
+    width: 100%;
+    background-color: rgb(144, 217, 228);
+    border-radius: 8px;
+    margin: 80px auto 80px;
+}
+.select-btn
+{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0);
+}
+.select-btn .btn-text {
+font-size: 17px;
+    color: #333;
+}
+
+.select-btn .arrow-down
+{
+    display: flex;
+    height: 21px;
+    width: 21px;
+    color: #ffff;
+    border-radius: 50px;
+    background: #6e93f7;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.select-btn.open~ .list-items{
+    display: block;
+}
+.select-btn.open .arrow-down
+{
+    transform: rotate(-180deg);
+}
+
+.list-items
+{
+    position: relative;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    display: none;
+
+}
+.list-items .item{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 0 15px;
+    border-radius: 8px;
+}
+
+.list-items .item:hover{
+    background-color: #98f1f5;
+}
+.item .item-text
+{
+    font-size: 17px;
+    color: #333;
+}
+.list-items .check-box{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 16px;
+    width: 16px;
+    border-radius: 4px;
+    margin-right: 12px;
+    border:1.5px solid #c0c0c0;
+    transition: all 0.3s ease-in-out;
+}
+.check-box .check-icon{
+    color: #fff;
+    font-size: 14px;
+    transform: scale(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.item.checked .check-icon
+{
+    transform: scale(1);
+}
+.item.checked .check-box
+{
+    background-color: #4070f4;
+    border-color: #4070f4;
+}
+
+
+
+.multi-box {
+    width: 600px;
+    margin: 80px auto;
+    text-align: center;
+    position: relative;
+
+}
+.multi-box select{
+    width: 100%;
+}
+.multi-box button
+{
+    background-color: darkblue !important;
+    color: #fff !important;
+    padding: 15px 20px;
+}

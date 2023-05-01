@@ -40,4 +40,16 @@ html, body {
     }
     }
 
-    
+.minat-tg{
+    border: #3f3e3e
+}
+
+.form-file .form-control
+{
+    align-items: center;
+    align-content: center;
+    height: 2.8rem;
+}
+.form-file .btn{
+    margin-top: 3rem;
+}
