@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+
+.img-size{
+    margin: 10px 0;
+}
+main{
+    margin-top: 40px;
+    text-align: center;
+}
+
+main h2{
+    margin-bottom: 20px;
+}
+.container-box{
+    margin: 20px auto auto auto;
+    text-align: center;
+}
+.row-center{
+    position: relative;
+}
+.img-size{
+    width: 30%;
+}
+.card{
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    margin-top: 20px;
+}
+
+/* Try cool animation xD */
+img{
+
+    --gap: 4px;
+    --border: 20px;
+    --color: rgb(252, 252, 252);
+
+    padding: calc(var(--gap) + var(--border));
+    --_color: #00f2ff 0 25%, var(--color) 0 50%;
+    --_gap1: repeating-linear-gradient(90deg, var(--_color)) repeat-x;
+
+    --_gap2:repeating-linear-gradient(180deg, var(--_color)) repeat-y;
+    background:
+        var(--_gap1) var(--_pixel, 25%)0, var(--_gap2)0 var(--_pixel,125%),
+        var(--_gap1) var(--_pixel, 125%)100%, var(--_gap2)100% var(--_pixel,125%);
+
+    background-size:200% var(--border), var(--border)200% ;
+    cursor: pointer;
+    filter: grayscale(50%);
+    transition: .3s;
+    border-radius: 50%;
+}
+img:hover {
+    --_pixel: 75%;
+    filter: grayscale(0%);
+ }
+

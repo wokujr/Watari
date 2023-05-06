@@ -1,11 +1,10 @@
-/* Default */
-body{
-    font-family:'Montserrat', sans-serif;
-    font-weight:500;
-}
-
 /* navbar */
-
+.side-border{
+    border-bottom:2px solid #00b3fa;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none!important;
+}   
 .bk-ground{
     background-color:rgb(133, 217, 250);
     padding: 1rem 18px 1rem;
@@ -17,8 +16,16 @@ body{
 }
 .reg-button
 {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: auto 5px;
+    border: 1px solid rgb(0,85,255);
+}
+.side-border-nav{
+    border:3px solid rgb(0,85,255);
+    border-radius: 15px;
+    margin: 0 5px;
+}
+.side-border-nav:hover{
+    border: 3px solid rgba(0, 255, 255);
 }
 
 /* Caoursel */
@@ -120,6 +127,50 @@ body{
     margin:40px 0 0 0
 }
 
+/* Register Float */
+    .register-float{
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    z-index: 99;
+    }
+    .register-float-icon{
+    display: flex;
+    background-color: rgb(67, 144, 232);
+    color: rgb(47, 45, 45);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    transition: all 0.3s ease;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    }
+    .register-float-icon:hover{
+        transform: scale(1.1);
+    }
+    .reg-pop-up {
+        position: absolute;
+        top: -50px;
+        right: 60px;
+        width: 200px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #000000;
+        font-size: 14px;
+        text-align: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+        border: 2px solid rgb(6, 197, 245);
+      }
+/* End of Register Float */
+
 /* WhatsApp Float */
 .float-whatsapp {
     position: fixed;
@@ -129,15 +180,20 @@ body{
   }
   
   .float-whatsapp a {
-    display: block;
+    display: flex;
     background-color: green;
     color: white;
-    width: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     text-align: center;
     line-height: 60px;
     font-size: 40px;
     transition: all 0.3s ease;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
   }
   
   .float-whatsapp a:hover {
@@ -173,3 +229,123 @@ body{
 }
 
 /* end of Main CSS */
+
+
+
+/* chart bar CSS */
+.con-box{
+    height: auto;
+    width: auto;
+    border: 3px solid #000;
+}
+
+.data-data{
+   margin-top: 10px;
+   padding: 1rem 0;
+   background-color: #dcdee2;
+   text-align: center;
+   justify-content: center;
+   display: flex;
+}
+.row-fit{
+    width: auto;
+    margin: auto;
+}
+.row-text{
+    margin-top: 2rem;
+}
+.item-inside{
+    text-align: center;
+}
+.item-inside p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.item-inside .outerline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 3px solid #04f5f5;
+}
+.item-inside .outerline .icon-orang-tg{
+
+    font-size: 2rem;
+}
+
+#row-data{
+    margin-top: 6rem;
+}
+
+#text-saja h2{
+    font-size: 25px;
+}
+
+/* End of chart bar CSS */
+
+/* Affiliase */
+#affiliasi{
+    height: 300px;
+}
+.carousel-item{
+    padding-left: 100px;
+    padding-right:100px;
+}
+
+/* End of affiliasi */
+
+/* Footer */    
+    .foot-bg{
+        background-color: rgb(131, 196, 237);
+        padding-bottom: 1rem;
+    }
+
+    /* contact */
+    .contact{
+        font-size: 30px;
+        text-align: center;
+        padding: 0 2rem;
+    }
+    .contact a{
+        color: black;
+    }
+    .contact a:hover{
+        color: rgba(0, 255, 255);
+    } 
+    .contact-circle{
+        height: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(131, 196, 237);
+        border-radius: 50px;
+        border:2px white solid;
+    }
+    .media-row{
+        height: auto;
+    }
+    .media{
+        font-size: 2rem;
+    }
+    .media-col{
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem auto;
+    }
+    .media .media-circle{
+        height: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(131, 196, 237);
+        border-radius: 50px;
+        border:2px white solid;
+    }
+/* End of Footer */

@@ -2,7 +2,7 @@ const express = require("express")
 const bodyParser = require("body-parser")
 
 const app = express()
-app.set("viewengine", "ejs");
+app.set("view engine", "ejs");
 
 app.get("/", function(req, res) {
     
@@ -16,4 +16,4 @@ app.get("/", function(req, res) {
 
 
 
-app.listen(3000, function(){console.log("server up")})
+app.listen(2000, function(){console.log("server up")})
