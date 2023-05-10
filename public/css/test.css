@@ -1,0 +1,47 @@
+.con-box{
+    height: 260px;
+    width: 500px;
+    border: 3px solid #000;
+    /* float: right;*/
+    margin: 1rem 3rem 0 0; 
+}
+
+.data-data
+{
+   margin: 0 50px;
+}
+.item-inside{
+    text-align: center;
+}
+.item-inside .outerline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 2px solid #04f5f5;
+}
+.item-inside .outerline .icon-orang-tg{
+
+    font-size: 2rem;
+}
+
+
+#row-data{
+    margin-top: 6rem;
+}
+#text-saja{
+    height: 400px;
+    width: 800px;
+}
+
+#text-saja h2{
+    font-size: 25px;
+}
+#bar-chart{
+    height: auto;
+    width: auto;
+    margin-left:3rem;
+}

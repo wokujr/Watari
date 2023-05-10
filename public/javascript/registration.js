@@ -14,19 +14,6 @@
       })
     })()
 
-$(document).ready(function() {
-  $('#registerModal').modal(
-    {backdrop: 'static',
-      keyboard: false})
-
-  $('#registerModal').modal('show');
-  $(".modal-title").css('text-align', 'center');
-
-    //click and gone for now, next time it will go to the persyaratan page.
-  $('#klik-gone').click(function () { $('#registerModal').modal('hide') });
-});
-
-
 $(function()
 {
   $('.minat-tg').selectpicker();
